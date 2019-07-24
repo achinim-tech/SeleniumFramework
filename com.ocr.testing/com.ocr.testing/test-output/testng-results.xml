@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2019-07-24T10:33:41Z" name="Default suite" finished-at="2019-07-24T10:34:22Z" duration-ms="41289">
+    <groups>
+    </groups>
+    <test started-at="2019-07-24T10:33:41Z" name="Default test" finished-at="2019-07-24T10:34:22Z" duration-ms="41289">
+      <class name="com.ocr.testing.OCRTest">
+        <test-method is-config="true" signature="setUpDriver()[pri:0, instance:com.ocr.testing.OCRTest@78dd667e]" started-at="2019-07-24T10:33:41Z" name="setUpDriver" finished-at="2019-07-24T10:34:08Z" duration-ms="26910" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpDriver -->
+        <test-method signature="test1()[pri:0, instance:com.ocr.testing.OCRTest@78dd667e]" started-at="2019-07-24T10:34:08Z" name="test1" finished-at="2019-07-24T10:34:22Z" duration-ms="14297" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method signature="test2()[pri:0, instance:com.ocr.testing.OCRTest@78dd667e]" started-at="2019-07-24T10:34:22Z" name="test2" finished-at="2019-07-24T10:34:22Z" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+      </class> <!-- com.ocr.testing.OCRTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
