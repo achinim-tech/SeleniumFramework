@@ -26,13 +26,22 @@ public class OCRTest {
 	  } 
 
 	@Test
-	public void test ()
+	public void test1 ()
 	{
 		
 		 driver.get("http://google.com");  
 		 driver.findElement(By.name("q")).sendKeys("selenium");
 		 driver.findElement(By.name("q")).sendKeys(Keys.ENTER);
 		 driver.quit();
+		
+		
+	}
+	
+	@Test
+	public void test2 ()
+	{
+		
+		 System.out.println("pass");
 		
 		
 	}
